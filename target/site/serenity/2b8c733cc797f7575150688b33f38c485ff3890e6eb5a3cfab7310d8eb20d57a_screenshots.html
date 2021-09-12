@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">CalculatorAndroid</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="fea5e03fd48b1866238560661a4857c2cf7b84667b8bc4ccd0d430ad0fde9db0.html">Basic Operations With The Calculator</a></span>
+                > <span class="truncate-60"><a
+                    href="2b8c733cc797f7575150688b33f38c485ff3890e6eb5a3cfab7310d8eb20d57a.html">Basic Operations </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-09-2021 13:07</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Basic Operations With The Calculator </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a calculator user<br />
+I need to use the basic operations<br />
+To know the result
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Basic Operations
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given that the user is in the calculator app<br>When you enter the data of the operation to be executed<br><table class='embedded'><thead><th>numberA</th><th>numberB</th><th>operator</th></thead><tbody><tr><td>&lt;numberA&gt;</td><td>&lt;numberB&gt;</td><td>&lt;operator&gt;</td></tr></tbody></table><br>Then Then it will validate the result on the screen</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="c2d6666493749b3d546d8b1b54f1cb507ce2db042832afac18ec5a6fdbdacbb1.png" title=" Example: {numberA=74, numberB=2, operator=*}" width="1080"/>
+                <img src="c2d6666493749b3d546d8b1b54f1cb507ce2db042832afac18ec5a6fdbdacbb1.png" title=" Given that the user is in the calculator app" width="1080"/>
+                <img src="c2d6666493749b3d546d8b1b54f1cb507ce2db042832afac18ec5a6fdbdacbb1.png" title=" When you enter the data of the operation to be executed
+| numberA | numberB | operator |
+| 74 | 2 | * |" width="1080"/>
+                <img src="ed97549d4d4d5beccd2aeff25a355d24507605603b19567ef532a2c4d0f18033.png" title=" Pepito execute operation" width="1080"/>
+                <img src="ed97549d4d4d5beccd2aeff25a355d24507605603b19567ef532a2c4d0f18033.png" title=" Pepito select number" width="1080"/>
+                <img src="0b6d20a9c4f19bcc6ead23bbf76c49e2c193b7ddfdd9828ddc6923ba315703d4.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="f88eb5fd6b6e27f2e05f77ce0642d13c21622b9d05905f509ca946464dae6a6f.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="f88eb5fd6b6e27f2e05f77ce0642d13c21622b9d05905f509ca946464dae6a6f.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="9fc311e6a3086298ada8b1befdd7e43c21b69bf42f672890721ec99d6f86797c.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="9fc311e6a3086298ada8b1befdd7e43c21b69bf42f672890721ec99d6f86797c.png" title=" Pepito select number (completed)" width="1080"/>
+                <img src="9fc311e6a3086298ada8b1befdd7e43c21b69bf42f672890721ec99d6f86797c.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="721599997dc74c40be8e4cca8fd18c180b40ed55e1da6c48a8eb67bf6c347a55.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="721599997dc74c40be8e4cca8fd18c180b40ed55e1da6c48a8eb67bf6c347a55.png" title=" Pepito select number" width="1080"/>
+                <img src="721599997dc74c40be8e4cca8fd18c180b40ed55e1da6c48a8eb67bf6c347a55.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="99c55103f51d7a1ef834d2a40c1860dfda7d47ccf0cada25a143d409a1302204.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="99c55103f51d7a1ef834d2a40c1860dfda7d47ccf0cada25a143d409a1302204.png" title=" Pepito select number (completed)" width="1080"/>
+                <img src="99c55103f51d7a1ef834d2a40c1860dfda7d47ccf0cada25a143d409a1302204.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="bec775747ae0c850c0459f39ac6e3fe6448f3a35711a5e109019ab4591292a1c.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="bec775747ae0c850c0459f39ac6e3fe6448f3a35711a5e109019ab4591292a1c.png" title=" Pepito execute operation (completed)" width="1080"/>
+                <img src="bec775747ae0c850c0459f39ac6e3fe6448f3a35711a5e109019ab4591292a1c.png" title=" When you enter the data of the operation to be executed
+| numberA | numberB | operator |
+| 74 | 2 | * | (completed)" width="1080"/>
+                <img src="bec775747ae0c850c0459f39ac6e3fe6448f3a35711a5e109019ab4591292a1c.png" title=" Then Then it will validate the result on the screen" width="1080"/>
+                <img src="9b75519c396167347987cc1e9a4fc380d9afeb71ef67e9e9ba9e8ab7753d77c3.png" title=" Then validate result should be '148'" width="1080"/>
+                <img src="9b75519c396167347987cc1e9a4fc380d9afeb71ef67e9e9ba9e8ab7753d77c3.png" title=" Then validate result should be '148' (completed)" width="1080"/>
+                <img src="9b75519c396167347987cc1e9a4fc380d9afeb71ef67e9e9ba9e8ab7753d77c3.png" title=" Then Then it will validate the result on the screen (completed)" width="1080"/>
+                <img src="9b75519c396167347987cc1e9a4fc380d9afeb71ef67e9e9ba9e8ab7753d77c3.png" title=" Example: {numberA=74, numberB=2, operator=*} (completed)" width="1080"/>
+                <img src="eeefbdd16cb64b98327e3e63bac4d62204937488f24d6c67ca75466adb44fbbb.png" title=" Example: {numberA=2, numberB=1, operator=+}" width="1080"/>
+                <img src="eeefbdd16cb64b98327e3e63bac4d62204937488f24d6c67ca75466adb44fbbb.png" title=" Given that the user is in the calculator app" width="1080"/>
+                <img src="eeefbdd16cb64b98327e3e63bac4d62204937488f24d6c67ca75466adb44fbbb.png" title=" When you enter the data of the operation to be executed
+| numberA | numberB | operator |
+| 2 | 1 | + |" width="1080"/>
+                <img src="eeefbdd16cb64b98327e3e63bac4d62204937488f24d6c67ca75466adb44fbbb.png" title=" Pepito execute operation" width="1080"/>
+                <img src="a0df7f41c60c63983b12f4042a15e227674c17e050ce551fab4a1e3eb61d3610.png" title=" Pepito select number" width="1080"/>
+                <img src="a0df7f41c60c63983b12f4042a15e227674c17e050ce551fab4a1e3eb61d3610.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="e0bddde384156b09d1325c07a899a06ab55d572aebbd40cbf1be38ec02e19869.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="e0bddde384156b09d1325c07a899a06ab55d572aebbd40cbf1be38ec02e19869.png" title=" Pepito select number (completed)" width="1080"/>
+                <img src="e0bddde384156b09d1325c07a899a06ab55d572aebbd40cbf1be38ec02e19869.png" title=" Pepito clicks on Button sum" width="1080"/>
+                <img src="7fb7d995c05e97da33345944d60c43c97934d126917e3d7e7237b7ae0aae866e.png" title=" Pepito clicks on Button sum (completed)" width="1080"/>
+                <img src="7fb7d995c05e97da33345944d60c43c97934d126917e3d7e7237b7ae0aae866e.png" title=" Pepito select number" width="1080"/>
+                <img src="edb8ab5c41e9d7aaf63f8efbdfc1cc9540d7ccc6fdfded0eee54226686dbb54c.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="5270ece97981f7adae70c4bc7eb173f63700a9d5c72d6f1064404fd34701a422.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="5270ece97981f7adae70c4bc7eb173f63700a9d5c72d6f1064404fd34701a422.png" title=" Pepito select number (completed)" width="1080"/>
+                <img src="5270ece97981f7adae70c4bc7eb173f63700a9d5c72d6f1064404fd34701a422.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="ce13fae0b02a52ff700f724e0762dbc919b5da572e2631ee760a96ce05ac7927.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="ce13fae0b02a52ff700f724e0762dbc919b5da572e2631ee760a96ce05ac7927.png" title=" Pepito execute operation (completed)" width="1080"/>
+                <img src="ce13fae0b02a52ff700f724e0762dbc919b5da572e2631ee760a96ce05ac7927.png" title=" When you enter the data of the operation to be executed
+| numberA | numberB | operator |
+| 2 | 1 | + | (completed)" width="1080"/>
+                <img src="0da796b2436b9e22310435d8122d545c3c30443fbc05cee44ea49244b49e87ca.png" title=" Then Then it will validate the result on the screen" width="1080"/>
+                <img src="0da796b2436b9e22310435d8122d545c3c30443fbc05cee44ea49244b49e87ca.png" title=" Then validate result should be '3'" width="1080"/>
+                <img src="e0898c48ac6bcf71ef1a650a7b008713af4758a4eeb6ee5b6c905a7f1ac9fc2e.png" title=" Then validate result should be '3' (completed)" width="1080"/>
+                <img src="e0898c48ac6bcf71ef1a650a7b008713af4758a4eeb6ee5b6c905a7f1ac9fc2e.png" title=" Then Then it will validate the result on the screen (completed)" width="1080"/>
+                <img src="e0898c48ac6bcf71ef1a650a7b008713af4758a4eeb6ee5b6c905a7f1ac9fc2e.png" title=" Example: {numberA=2, numberB=1, operator=+} (completed)" width="1080"/>
+                <img src="41e6b66a1322fe4724945d43399baee54660e4174405b3ca8d59af722c746cb7.png" title=" Example: {numberA=50, numberB=2, operator=-}" width="1080"/>
+                <img src="41e6b66a1322fe4724945d43399baee54660e4174405b3ca8d59af722c746cb7.png" title=" Given that the user is in the calculator app" width="1080"/>
+                <img src="41e6b66a1322fe4724945d43399baee54660e4174405b3ca8d59af722c746cb7.png" title=" When you enter the data of the operation to be executed
+| numberA | numberB | operator |
+| 50 | 2 | - |" width="1080"/>
+                <img src="41e6b66a1322fe4724945d43399baee54660e4174405b3ca8d59af722c746cb7.png" title=" Pepito execute operation" width="1080"/>
+                <img src="a440210305397b3da1911c9a8f9ef8a0edea57844fcc71d1abc46e9c08a87092.png" title=" Pepito select number" width="1080"/>
+                <img src="a440210305397b3da1911c9a8f9ef8a0edea57844fcc71d1abc46e9c08a87092.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="e018de9cee52536c91832bf8cf046a9868f1507652570fcb946a200ccb093ccd.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="e018de9cee52536c91832bf8cf046a9868f1507652570fcb946a200ccb093ccd.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="d1cbebe7a887f808dffce0dd2c11dd7ee9f7d664e2fec04193a362f7d159c497.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="d1cbebe7a887f808dffce0dd2c11dd7ee9f7d664e2fec04193a362f7d159c497.png" title=" Pepito select number (completed)" width="1080"/>
+                <img src="d1cbebe7a887f808dffce0dd2c11dd7ee9f7d664e2fec04193a362f7d159c497.png" title=" Pepito clicks on Button subtraction" width="1080"/>
+                <img src="b7f1f8be3d90c9068e53e363b84dca2a61c2a537f2e96e2538defe9afd3e6424.png" title=" Pepito clicks on Button subtraction (completed)" width="1080"/>
+                <img src="b7f1f8be3d90c9068e53e363b84dca2a61c2a537f2e96e2538defe9afd3e6424.png" title=" Pepito select number" width="1080"/>
+                <img src="b7f1f8be3d90c9068e53e363b84dca2a61c2a537f2e96e2538defe9afd3e6424.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="4537c8166eba7df4b2c88d5d433bc00a1154a42f843d8460ef7ebfd05704a8f5.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="4537c8166eba7df4b2c88d5d433bc00a1154a42f843d8460ef7ebfd05704a8f5.png" title=" Pepito select number (completed)" width="1080"/>
+                <img src="4537c8166eba7df4b2c88d5d433bc00a1154a42f843d8460ef7ebfd05704a8f5.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="2a3156c17c11e870da815d360cf38228011d4cfac2c0f02ff33c5b333c0bf561.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="2a3156c17c11e870da815d360cf38228011d4cfac2c0f02ff33c5b333c0bf561.png" title=" Pepito execute operation (completed)" width="1080"/>
+                <img src="2a3156c17c11e870da815d360cf38228011d4cfac2c0f02ff33c5b333c0bf561.png" title=" When you enter the data of the operation to be executed
+| numberA | numberB | operator |
+| 50 | 2 | - | (completed)" width="1080"/>
+                <img src="2a3156c17c11e870da815d360cf38228011d4cfac2c0f02ff33c5b333c0bf561.png" title=" Then Then it will validate the result on the screen" width="1080"/>
+                <img src="4cc8102e603705a21fc56f8f79a40f0e27ac54ff4ee4dba3605c85e46562039f.png" title=" Then validate result should be '48'" width="1080"/>
+                <img src="c5fe1f09702b60e112f99475425d5d3fcf2a57756f53266f7150f11edf8e3b19.png" title=" Then validate result should be '48' (completed)" width="1080"/>
+                <img src="c5fe1f09702b60e112f99475425d5d3fcf2a57756f53266f7150f11edf8e3b19.png" title=" Then Then it will validate the result on the screen (completed)" width="1080"/>
+                <img src="c5fe1f09702b60e112f99475425d5d3fcf2a57756f53266f7150f11edf8e3b19.png" title=" Example: {numberA=50, numberB=2, operator=-} (completed)" width="1080"/>
+                <img src="61381b0134b914c84bc4e0dfbd7a5aa5385418d6be5ee0a1b50559c5924852b9.png" title=" Example: {numberA=951, numberB=3, operator=/}" width="1080"/>
+                <img src="61381b0134b914c84bc4e0dfbd7a5aa5385418d6be5ee0a1b50559c5924852b9.png" title=" Given that the user is in the calculator app" width="1080"/>
+                <img src="61381b0134b914c84bc4e0dfbd7a5aa5385418d6be5ee0a1b50559c5924852b9.png" title=" When you enter the data of the operation to be executed
+| numberA | numberB | operator |
+| 951 | 3 | / |" width="1080"/>
+                <img src="61381b0134b914c84bc4e0dfbd7a5aa5385418d6be5ee0a1b50559c5924852b9.png" title=" Pepito execute operation" width="1080"/>
+                <img src="bf8bfa61d26d1b5a7a39607c392c97ef0ffcf72f8c16d4dc90598d3884ddb237.png" title=" Pepito select number" width="1080"/>
+                <img src="bf8bfa61d26d1b5a7a39607c392c97ef0ffcf72f8c16d4dc90598d3884ddb237.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="fe8ba694d37b9e16961e323247bf44ddaac0532b87a58c9517dc0845ee9a287c.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="fe8ba694d37b9e16961e323247bf44ddaac0532b87a58c9517dc0845ee9a287c.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="4fa85917b2dfb6722b31f33e6e480a7e4f12bbd492225f85061efebcb1f858c4.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="4fa85917b2dfb6722b31f33e6e480a7e4f12bbd492225f85061efebcb1f858c4.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="7d5255a1e615d7a1d38aeccf855a7462eaf9ba4b2e8a1969d2ac0345948cbadf.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="7d5255a1e615d7a1d38aeccf855a7462eaf9ba4b2e8a1969d2ac0345948cbadf.png" title=" Pepito select number (completed)" width="1080"/>
+                <img src="7d5255a1e615d7a1d38aeccf855a7462eaf9ba4b2e8a1969d2ac0345948cbadf.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="67b7b73e0ed34ffc650d9c8cf3f4872133688c9dbe26214c8cbfe3537699042e.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="67b7b73e0ed34ffc650d9c8cf3f4872133688c9dbe26214c8cbfe3537699042e.png" title=" Pepito select number" width="1080"/>
+                <img src="c83cbc115dc921597475748d4ccd5869da31bc1c189d127c0ed58b1c0b58a40e.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="02f3974b8e5c7bb09e0014326a5803807c717ab16c882f3fda8ef494de715ebf.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="02f3974b8e5c7bb09e0014326a5803807c717ab16c882f3fda8ef494de715ebf.png" title=" Pepito select number (completed)" width="1080"/>
+                <img src="02f3974b8e5c7bb09e0014326a5803807c717ab16c882f3fda8ef494de715ebf.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="4c6e5dd918ff332c5c865e352f70f4dbaa175c1aa4765968f5c4813f63cb6a2d.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="4c6e5dd918ff332c5c865e352f70f4dbaa175c1aa4765968f5c4813f63cb6a2d.png" title=" Pepito execute operation (completed)" width="1080"/>
+                <img src="4c6e5dd918ff332c5c865e352f70f4dbaa175c1aa4765968f5c4813f63cb6a2d.png" title=" When you enter the data of the operation to be executed
+| numberA | numberB | operator |
+| 951 | 3 | / | (completed)" width="1080"/>
+                <img src="4c6e5dd918ff332c5c865e352f70f4dbaa175c1aa4765968f5c4813f63cb6a2d.png" title=" Then Then it will validate the result on the screen" width="1080"/>
+                <img src="ed1b2554db3f7f594e8b550cf6dc242eb90f88a6f9f3d7cafa1d14024ed19f3f.png" title=" Then validate result should be '317'" width="1080"/>
+                <img src="5beece0d6dcc278ef0cdd620f594cfffd65dd82672d0ec6123f8e52ff2d88026.png" title=" Then validate result should be '317' (completed)" width="1080"/>
+                <img src="5beece0d6dcc278ef0cdd620f594cfffd65dd82672d0ec6123f8e52ff2d88026.png" title=" Then Then it will validate the result on the screen (completed)" width="1080"/>
+                <img src="5beece0d6dcc278ef0cdd620f594cfffd65dd82672d0ec6123f8e52ff2d88026.png" title=" Example: {numberA=951, numberB=3, operator=/} (completed)" width="1080"/>
+                <img src="e6a2a63c8010e833627e8c79a4bacadbc947c6c9cf5cad1618a41a96ce852dd4.png" title=" Example: {numberA=98, numberB=2, operator=/}" width="1080"/>
+                <img src="e6a2a63c8010e833627e8c79a4bacadbc947c6c9cf5cad1618a41a96ce852dd4.png" title=" Given that the user is in the calculator app" width="1080"/>
+                <img src="e6a2a63c8010e833627e8c79a4bacadbc947c6c9cf5cad1618a41a96ce852dd4.png" title=" When you enter the data of the operation to be executed
+| numberA | numberB | operator |
+| 98 | 2 | / |" width="1080"/>
+                <img src="e6a2a63c8010e833627e8c79a4bacadbc947c6c9cf5cad1618a41a96ce852dd4.png" title=" Pepito execute operation" width="1080"/>
+                <img src="366d1acc05c79db23d557a5546d4a3e33843db4ed718c171197696830083d7e1.png" title=" Pepito select number" width="1080"/>
+                <img src="366d1acc05c79db23d557a5546d4a3e33843db4ed718c171197696830083d7e1.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="73266cd1c4bf44bd72dbc3280191e681ea515d1b4499bacd3d365a890bc7cf4b.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="73266cd1c4bf44bd72dbc3280191e681ea515d1b4499bacd3d365a890bc7cf4b.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="32f410685ce64af18fb3c3044e1ac081aa1e029f3a1f3eb40b6c8f974a438a4c.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="32f410685ce64af18fb3c3044e1ac081aa1e029f3a1f3eb40b6c8f974a438a4c.png" title=" Pepito select number (completed)" width="1080"/>
+                <img src="32f410685ce64af18fb3c3044e1ac081aa1e029f3a1f3eb40b6c8f974a438a4c.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="2bbb1a630e7e0f2373e4f354204e42d0886693394a892c5653dbf9acfb4230c3.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="2bbb1a630e7e0f2373e4f354204e42d0886693394a892c5653dbf9acfb4230c3.png" title=" Pepito select number" width="1080"/>
+                <img src="2bbb1a630e7e0f2373e4f354204e42d0886693394a892c5653dbf9acfb4230c3.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="8d3940cbafeb4bc34db8aebb0c7a9a52bb9c517d26abad163e853d601cdcee54.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="8d3940cbafeb4bc34db8aebb0c7a9a52bb9c517d26abad163e853d601cdcee54.png" title=" Pepito select number (completed)" width="1080"/>
+                <img src="8d3940cbafeb4bc34db8aebb0c7a9a52bb9c517d26abad163e853d601cdcee54.png" title=" Pepito clicks on Button number" width="1080"/>
+                <img src="99d8bbbf9d79815d18ae261b80ddc1b8cb2d17b6d245d60dcad848031c6799fc.png" title=" Pepito clicks on Button number (completed)" width="1080"/>
+                <img src="99d8bbbf9d79815d18ae261b80ddc1b8cb2d17b6d245d60dcad848031c6799fc.png" title=" Pepito execute operation (completed)" width="1080"/>
+                <img src="99d8bbbf9d79815d18ae261b80ddc1b8cb2d17b6d245d60dcad848031c6799fc.png" title=" When you enter the data of the operation to be executed
+| numberA | numberB | operator |
+| 98 | 2 | / | (completed)" width="1080"/>
+                <img src="99d8bbbf9d79815d18ae261b80ddc1b8cb2d17b6d245d60dcad848031c6799fc.png" title=" Then Then it will validate the result on the screen" width="1080"/>
+                <img src="ae594418c918925d8a06fb0d0158353129e65ea5765a3e98ec30847ff32b48bc.png" title=" Then validate result should be '49'" width="1080"/>
+                <img src="9cadd99dbfa35b2f5ae538be20b9bccc8b4332feb5dd41877084dc9397279c9b.png" title=" Then validate result should be '49' (completed)" width="1080"/>
+                <img src="9cadd99dbfa35b2f5ae538be20b9bccc8b4332feb5dd41877084dc9397279c9b.png" title=" Then Then it will validate the result on the screen (completed)" width="1080"/>
+                <img src="9cadd99dbfa35b2f5ae538be20b9bccc8b4332feb5dd41877084dc9397279c9b.png" title=" Example: {numberA=98, numberB=2, operator=/} (completed): <span class='success-color'>SUCCESS</span>" width="1080"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.82</span>
+</div>
+</body>
+</html>
